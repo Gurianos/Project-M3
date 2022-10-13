@@ -1,0 +1,43 @@
+{
+  "name": "GURIAN #0003",
+  "symbol": "GURS",
+  "description": "Collection of 5 numbers on the blockchain. This is the number 0/5.",
+  "seller_fee_basis_points": 100,
+  "image": "3.png",
+  "attributes": [
+    {
+      "trait_type": "Layer-1",
+      "value": "0"
+    },
+    {
+      "trait_type": "Layer-2",
+      "value": "0"
+    },
+    {
+      "trait_type": "Layer-3",
+      "value": "0"
+    },
+    {
+      "trait_type": "Layer-4",
+      "value": "0"
+    }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "7rJEHcozyjWaSbqQRnLgpb5MnF8TMzWM4rdWDkVJr1YE",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "3.png",
+        "type": "image/png"
+      }
+    ]
+  },
+  "collection": {
+    "name": "numbers",
+    "family": "numbers"
+  }
+}

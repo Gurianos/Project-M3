@@ -1,0 +1,93 @@
+
+installing : 
+
+PS E:\NFT\Project-M3\Candymachine> sugar launch
+Starting Sugar launch... 
+
+>>> sugar validate
+
+[1/1] Loading assets
+
++----------------------------------------------+
+|  MISSING COLLECTION FILES IN ASSETS FOLDER |
++----------------------------------------------+
+Check https://docs.metaplex.com/developer-tools/sugar/guides/preparing-assets for the collection file requirements if you want a collection to be set automatically.
+
+✔ Do you want to continue without automatically setting the candy machine collection? · yes
+
+⠁
+ missing `properties.category` for nft GURIAN #0001, defaulting to image
+ missing `properties.category` for nft GURIAN #0000, defaulting to image
+ missing `properties.category` for nft GURIAN #0003, defaulting to image
+ missing `properties.category` for nft GURIAN #0002, defaulting to image
+▪▪▪▪▪ Validating 5 metadata file(s)...
+
+Validation complete, your metadata file(s) look good.
+
+>>> sugar upload
+
+[1/4] Loading assets
+Found 5 asset pair(s), uploading files:
++--------------------+
+| images    |      5 |
+| metadata  |      5 |
++--------------------+
+
+[2/4] Initializing upload
+▪▪▪▪▪ Connected
+Funding address:
+  -> pubkey: 7rJEHcozyjWaSbqQRnLgpb5MnF8TMzWM4rdWDkVJr1YE
+  -> lamports: 49408 (◎ 0.000049408)
+Signature: 4aHZsrGpKW9AoGGJBH4RxqPK61RPuDGGmBoPGRKYj33xhPY4KS1sJUejGqXuhsPdBnwnDqvoWfrGX6W2QcpjjwMJ
+
+[3/4] Uploading image files 
+
+Sending data: (Ctrl+C to abort)
+[00:00:00] Upload successful █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 5/5
+[4/4] Uploading metadata files
+
+Sending data: (Ctrl+C to abort)
+[00:00:00] Upload successful █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 5/5
+5/5 asset pair(s) uploaded.
+
+>>> sugar deploy
+
+[1/2] Creating candy machine
+Candy machine ID: 3roDKtrndr8Pqga8sXiRicV2tnJePMizcbhzMNdnCRMX
+
+[2/2] Writing config lines
+Sending config line(s) in 1 transaction(s): (Ctrl+C to abort)
+[00:00:01] Write config lines successful █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 1/1
+>>> sugar verify
+
+[1/2] Loading candy machine
+▪▪▪▪▪ Completed
+
+[2/2] Verification
+Verifying 5 config line(s): (Ctrl+C to abort)
+[00:00:01] Config line verification successful ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 5/5
+Verification successful. You're good to go!
+
+See your candy machine at:
+  -> https://www.solaneyes.com/address/3roDKtrndr8Pqga8sXiRicV2tnJePMizcbhzMNdnCRMX?cluster=devnet
+
+Command successful.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
