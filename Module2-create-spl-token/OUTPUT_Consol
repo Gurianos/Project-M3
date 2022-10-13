@@ -1,0 +1,22 @@
+ ts-node wallet.js
+
+ 
+Generated new KeyPair. Wallet PublicKey:  7rJEHcozyjWaSbqQRnLgpb5MnF8TMzWM4rdWDkVJr1YE
+Wrote secret key to guideSecret.json.
+Airdrop Transaction Id: 5gfRxRNvHQW1FHKQj8GkdxWaiBHtiZDVoW9DypvbvesWe2EAzDPbwrdokSDNAKf2E18d8ZTzZ2S1HBHRRhxypgdm
+https://explorer.solana.com/tx/5gfRxRNvHQW1FHKQj8GkdxWaiBHtiZDVoW9DypvbvesWe2EAzDPbwrdokSDNAKf2E18d8ZTzZ2S1HBHRRhxypgdm?cluster=devnet
+
+
+
+
+PS E:\NFT\Project-M3\Module2-create-spl-token-js> solana config set --keypair E:\NFT\Project-M3\Module2-create-spl-token-js\guideSecret.json
+Config File: C:\Users\prevo\.config\solana\cli\config.yml
+RPC URL: https://solana-devnet.g.alchemy.com/v2/5w3Z5i1VJq8xriekIT0EWYsxFEIaiZBi
+WebSocket URL: wss://solana-devnet.g.alchemy.com/v2/5w3Z5i1VJq8xriekIT0EWYsxFEIaiZBi (computed)
+Keypair Path: E:\NFT\Project-M3\Module2-create-spl-token-js\guideSecret.json
+Commitment: confirmed
+
+
+PS E:\NFT\Project-M3\Module2-create-spl-token-js> solana address
+7rJEHcozyjWaSbqQRnLgpb5MnF8TMzWM4rdWDkVJr1YE
+
