@@ -28,17 +28,10 @@ Also double check that esModuleInterop is set to true to allow for us to use imp
 and add at the end 
 
 
-or
-yarn add @metaplex-foundation/mpl-token-metadata
-yarn add @metaplex-foundation/js
 
 ts-node wallet.ts
 
 Here publicKey is a wallet publicKey. It will returns all metadata owned by a wallet.
 
-
-// to change configuration config.json
-sugar update
-or sugar upload & sugar deploy
 
 guideSecret.json create when launch 

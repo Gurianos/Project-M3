@@ -1,5 +1,17 @@
 # Metaplex Deprecated JS Clis
 
+
+// When your asset folder is completed,  launch sugar on tereminal
+sugar launch
+or
+sugar create-config
+sugar upload
+sugar deploy
+
+##To update the config.json modifications on the blockchain use sugar update.
+
+### For Old References
+
 🚨 **Deprecated Repo** 🚨
 
 Please note that this GitHub repository is no longer being maintained. To use the Metaplex Candy Machine or to integrate Metaplex's programs with your JavaScript applications **please use the following**:
