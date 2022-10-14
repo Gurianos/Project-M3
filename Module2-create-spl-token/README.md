@@ -22,16 +22,18 @@ yarn add fs
 
 
 
-Open tsconfig.json and uncomment (or add) this to your file: 
+// Open tsconfig.json and uncomment (or add) this to your file: 
 "resolveJsonModule": true
-Also double check that esModuleInterop is set to true to allow for us to use imports. 
-and add at the end 
+// Also double check that esModuleInterop is set to true to allow for us to use imports. 
 
-
-
+//launch the wallet creation
 ts-node wallet.ts
+// guideSecret.json is created and available in your repository project
+
+// your wallet is ready to use, 
+use solana config set keypair=<guideSecret.json path>
+// your wallet is now ready to use, 
 
 Here publicKey is a wallet publicKey. It will returns all metadata owned by a wallet.
-
 
 guideSecret.json create when launch 
